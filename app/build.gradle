@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.1"
+
+    defaultConfig {
+        applicationId "com.example.firebaceproject"
+        minSdkVersion 28
+        targetSdkVersion 29
+        versionCode 2
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.firebase:firebase-auth:19.3.1'
+    implementation 'com.google.firebase:firebase-database:19.3.1'
+    implementation 'com.google.firebase:firebase-storage:19.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    //authentication facebook,google,email,phone
+    implementation 'com.google.firebase:firebase-auth:19.3.1'
+    //google sign
+    implementation 'com.google.android.gms:play-services-auth:18.0.0'
+    //storage of image
+    implementation 'com.google.firebase:firebase-storage:19.1.1'
+    //crop image
+    api 'com.theartofdev.edmodo:android-image-cropper:2.8.+'
+    //for facebook login auth
+    implementation 'com.facebook.android:facebook-android-sdk:[5,6)'
+    implementation 'com.android.support:design:28.0.0'
+    //for load image
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    // FirebaseUI for Firebase Realtime Database
+    implementation 'com.firebaseui:firebase-ui-database:2.0.1'
+    implementation 'com.android.support:multidex:1.0.1'
+    implementation 'androidx.fragment:fragment:1.0.0'
+    //cardview
+    implementation 'androidx.cardview:cardview:1.0.0'
+    //for storage image
+
+
+
+
+}

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">firebaceproject</string>
+    <string name="chat_app">WELL COME TO\nHUB OF COLLEGE</string>
+    <string name="chat_login">already have a account</string>
+    <string name="chat_register">need an account</string>
+    <string name="users">users</string>
+    //facebook log in
+    <string name="facebook_app_id">280403946416080</string>
+    <string name="fb_login_protocol_scheme">fb280403946416080</string>
+    <string name="setting">Setting</string>
+    <string name="logout">Logout</string>
+    <string name="name">name</string>
+    <string name="username">username</string>
+    <string name="country">country</string>
+    <string name="profile_image">profile_image</string>
+    <string name="status">status</string>
+    <string name="phone">phone</string>
+    <string name="friend_add_key">friend_add_key</string>
+    <string name="request">Request</string>
+    <string name="request_type">Request_type</string>
+    <string name="received">Received</string>
+    <string name="sent">sent</string>
+    <string name="friend_list">Friend_list</string>
+    <string name="friend">Friends</string>
+    <string name="Users">Users</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#4527A0</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="color">#1C1A1A</color>
+    <color name="colorstr">@color/browser_actions_bg_grey</color>
+    <color name="colorstri">@android:color/holo_red_dark</color>
+    <color name="search">@color/browser_actions_bg_grey</color>
+</resources>

@@ -1,0 +1,64 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/main_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_size">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/back_arrow"
+                        android:layout_width="59dp"
+                        android:layout_height="36dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="-12dp"
+                        android:layout_marginBottom="11dp"
+                        app:srcCompat="@drawable/backicon" />
+
+                    <ImageView
+                        android:id="@+id/Update_done"
+                        android:layout_width="37dp"
+                        android:layout_height="39dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp"
+                        app:srcCompat="@drawable/ic_done" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="207dp"
+                        android:layout_height="49dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="63dp"
+                        android:layout_marginBottom="2dp"
+                        android:text="Account Setting"
+                        android:textColor="@color/search"
+                        android:textSize="24sp" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/colorAccent"
+tools:context=".LoginActivity">
+
+<ImageView
+    android:layout_width="61dp"
+    android:layout_height="49dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="234dp"
+    android:src="@drawable/ic_action_name" />
+
+<ImageView
+    android:layout_width="61dp"
+    android:layout_height="49dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_centerVertical="true"
+    android:layout_marginStart="2dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginTop="306dp"
+    android:src="@drawable/ic_action_password" />
+
+<Button
+    android:id="@+id/bt_register"
+    android:layout_width="203dp"
+    android:layout_height="68dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginStart="103dp"
+    android:layout_marginLeft="103dp"
+    android:layout_marginBottom="169dp"
+    android:background="@drawable/bt_border"
+    android:text="Sigin" />
+
+<EditText
+    android:id="@+id/et_password"
+    android:layout_width="478dp"
+    android:layout_height="58dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_centerInParent="true"
+    android:layout_marginStart="74dp"
+    android:layout_marginLeft="74dp"
+    android:layout_marginTop="310dp"
+    android:layout_marginEnd="7dp"
+    android:background="@drawable/edittxt_circle_bg"
+    android:ems="10"
+    android:hint="password"
+    android:textColor="@color/colorstri"
+    android:inputType="textPersonName"
+    android:singleLine="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="7dp" />
+
+<EditText
+    android:id="@+id/et_email"
+    android:layout_width="469dp"
+    android:layout_height="57dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginStart="79dp"
+    android:layout_marginLeft="79dp"
+    android:layout_marginTop="233dp"
+    android:layout_marginEnd="6dp"
+    android:layout_marginRight="6dp"
+    android:background="@drawable/edittxt_circle_bg"
+    android:ems="10"
+    android:hint="Email"
+    android:textColor="@color/colorstri"
+    android:inputType="textPersonName"
+    android:singleLine="true" />
+
+<de.hdodenhof.circleimageview.CircleImageView
+    android:id="@+id/iv_profile_image"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="65dp"
+    android:src="@drawable/download"
+    app:civ_border_color="@color/colorPrimaryDark"
+    app:civ_border_width="1dp"/>
+
+
+    <com.google.android.gms.common.SignInButton
+
+        android:id="@+id/sign_In_button"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginBottom="96dp">
+
+    </com.google.android.gms.common.SignInButton>
+
+    <ImageView
+        android:id="@+id/back_activity"
+        android:layout_width="54dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/backicon" />
+
+
+
+</RelativeLayout>

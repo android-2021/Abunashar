@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="410dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="191dp"
+        android:background="@color/color"
+        android:text="@string/chat_app"
+        android:textAlignment="center"
+        android:textColor="@color/colorstr"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btn_Login"
+        android:layout_width="397dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="290dp"
+        android:background="@color/color"
+        android:text="@string/chat_login"
+        android:textColor="@color/colorstr"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="245dp"
+        android:background="@color/color"
+        android:text="@string/chat_register"
+        android:textColor="@color/colorstr"
+        android:textSize="24sp" />
+</RelativeLayout>
